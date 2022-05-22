@@ -1,0 +1,90 @@
+/* Elements */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+p, li {
+  font-size: 1.5rem;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+}
+
+.content-padding {
+  padding: 0 5%;
+}
+
+.secondary-heading {
+  font-size: 3rem;
+}
+
+.color-DB324D-heading {
+  color: #DB324D;
+}
+
+.color-E4697D-heading {
+  color: #E4697D;
+}
+
+.color-511C29-heading {
+  color: #511C29;
+}
+
+.color-56494E-heading {
+  color: #56494E;
+}
+
+.color-F5AC72-heading {
+  color: #F5AC72;
+}
+
+.description {
+  text-align: justify;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #FFFFFF;
+  font-size: 1rem;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 3%;
+  min-width: 230px;
+}
+
+.btn:hover {
+  background: #898888;
+  text-decoration: none;
+}
+
+.home-button {
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  z-index: 7;
+}
+
+@media (max-width: 1200px) {
+
+  iframe {
+    width: 640px;
+    height: 480px;
+  }
+}

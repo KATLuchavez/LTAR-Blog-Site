@@ -1,0 +1,302 @@
+/* Naviation Bar */
+#menu-button {
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  z-index: 5;
+  padding-top: 0.53%;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 3%;
+  position: fixed;
+  height: 100%;
+  width: 12%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 7;
+  min-width: 230px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 100;
+
+  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #949090;
+}
+
+/* Main Section */
+.container-fluid {
+  padding: 5% 5% 20% 5%;
+  text-align: center;
+}
+
+#title {
+  background: linear-gradient(rgba(81, 28, 41, 0.3), rgba(81, 28, 41, 0.3)), url("../images/backgrounds/main-background.png");
+  background-color: #511C29;
+  background-size: cover;
+}
+
+.title-heading {
+  padding-bottom: 1%;
+}
+
+/* Personal Description Section */
+#personal-description {
+  text-align: center;
+  padding: 5% 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/backgrounds/1.1.png");
+  background-color: #DB324D;
+  background-size: cover;
+}
+
+.personal-description-frame {
+  padding: 3%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.personal-description-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #511C29;
+}
+
+.personal-description-description {
+  padding-top: 9%;
+  padding-left: 5%;
+}
+
+.member-image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 1% 15%;
+}
+
+.transparent-carousel-btn {
+  z-index: 6;
+}
+
+.carousel-row {
+  margin: 0 1%;
+}
+
+.carousel-control-next-icon {
+  width: 40%;
+  height: 40%;
+}
+
+.carousel-control-prev-icon {
+  width: 40%;
+  height: 40%;
+}
+
+/* Axioms of Communication */
+#axioms-of-communication {
+  padding: 5%;
+  text-align: center;
+  background: linear-gradient(rgba(81, 28, 41, 0.8), rgba(81, 28, 41, 0.8)), url("../images/backgrounds/1.2.png");
+  background-color: #511C29;
+  background-size: cover;
+}
+
+.axioms-of-communication-heading {
+  padding-bottom: 1%;
+}
+
+.analysis-heading {
+  color: #F5AC72;
+  padding-bottom: 1%;
+}
+
+.axioms-of-communication-description {
+  text-align: justify;
+}
+
+.axioms-list {
+  padding: 0 15%;
+  text-align: left;
+}
+
+.movie-poster-frame {
+  border-radius: 28px;
+  padding: 4%;
+  background-color: #DB324D;
+}
+
+.movie-poster-section {
+  padding: 3%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+}
+
+.movie-poster-image {
+  height: 70%;
+  width: 70%;
+  padding-bottom: 3%;
+}
+
+.movie-line-separator {
+  border: 3px solid #FFFFFF;
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+#relational-communication-theory {
+  padding: 5%;
+  text-align: center;
+  background: linear-gradient(rgba(245, 172, 114, 0.25), rgba(245, 172, 114, 0.25)), url("../images/backgrounds/1.3.png");
+  background-color: #DB324D;
+  background-size: cover;
+  color: #A62639;
+}
+.rel-description {
+  padding-bottom: 5%;
+}
+
+.relational-icon {
+  width: 25%;
+  border-radius: 10%;
+}
+
+.relational-btn {
+  font-size: 1.5rem;
+  color: #F5AC72;
+  background-color: #511C29;
+  border-radius: 0;
+}
+
+#communication-style {
+  padding: 5% 0;
+  text-align: center;
+  background: linear-gradient(rgba(81, 28, 41, 0.8), rgba(81, 28, 41, 0.8)), url("../images/backgrounds/1.4.jpeg");
+  background-color: #511C29;
+  background-size: cover;
+}
+
+#communication-style-carousel {
+  background: rgba(219, 50, 77, 0.7);
+}
+
+.communication-style-carousel {
+  padding-top: 2%;
+}
+
+.comm-style-left-block {
+  padding-top: 2%;
+}
+
+.communication-style-name {
+  display: block;
+  margin-top: 3%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #511C29;
+}
+
+.color-DB324D-carousel-btn {
+  z-index: 6;
+  background-color: #DB324D;
+}
+
+#relationship-building1 {
+  padding: 5% 0;
+  text-align: center;
+  background: linear-gradient(rgba(245, 172, 114, 0.8), rgba(245, 172, 114, 0.8)), url("../images/backgrounds/1.5.1.png");
+  background-color: #DB324D;
+  background-size: cover;
+  color: #A62639;
+  font-weight: 550;
+}
+
+.quotes-icon {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  padding-bottom: 1%;
+}
+
+.author {
+  padding-top: 1%;
+  text-align: right;
+}
+
+#relationship-building2 {
+  padding: 5% 0;
+  text-align: center;
+  background: linear-gradient(rgba(245, 172, 114, 0.5), rgba(245, 172, 114, 0.5)), url("../images/backgrounds/1.5.2.png");
+  background-color: #DB324D;
+  background-size: cover;
+  color: #A62639;
+  font-weight: 550;
+}
+
+.better-communication-frame {
+  border-radius: 28px;
+  padding: 3%;
+  background: rgba(255, 255, 255, 0.4);
+  width: 90%;
+  margin: auto;
+}
+
+.color-56494E-carousel-btn {
+  z-index: 6;
+  background-color: #56494E;
+}
+
+.BC-row {
+  width: 800px;
+  margin: auto;
+}
+
+#mediated-communication {
+  padding: 3% 0;
+  text-align: center;
+  background: linear-gradient(rgba(81, 28, 41, 0.5), rgba(81, 28, 41, 0.5)), url("../images/backgrounds/1.6.png");
+  background-color: #511C29;
+  background-size: cover;
+}
+
+#types-of-relationships {
+  padding: 5% 0;
+  text-align: center;
+  background: linear-gradient(rgba(245, 172, 114, 0.5), rgba(245, 172, 114, 0.5)), url("../images/backgrounds/1.7.png");
+  background-color: #DB324D;
+  background-size: cover;
+}
+
+.types-of-relationships-description-frame {
+  padding: 3%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 28px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+#communication-mistakes {
+  padding: 5% 0;
+  text-align: center;
+  /* background: linear-gradient(rgba(81, 28, 41, 0.5), rgba(81, 28, 41, 0.5)), url("../images/backgrounds/2.1.png"); */
+  background-color: #511C29;
+  background-size: cover;
+}
+
+#footer {
+  background-color: #F5AC72;
+  text-align: center;
+  padding: 3% 0;
+}
+
+.footer-icon {
+  padding: 0 0.3% 1% 0.3%;
+}
